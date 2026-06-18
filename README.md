@@ -32,21 +32,6 @@ This is a Next.js (App Router) project built with React, Tailwind CSS v4, and Ty
 ## Environment Guide
 
 Create a `.env.local` file at the root of the project with the following variables:
-- `NEXT_PUBLIC_API_URL`: The base URL for the backend API. Default is `http://localhost:3000/api`.
+- `NEXT_PUBLIC_API_URL`: The base URL for the backend API. Default is `http://localhost:8000/api/v1`.
 
-## Production Deployment (Docker)
-
-This application is configured to build as a Next.js **Standalone** output, which drastically reduces the container size.
-
-1. **Build and Run with Docker Compose**
-   ```bash
-   docker-compose up -d --build
-   ```
-
-2. **Access the App**
-   The application will run on port 3000: [http://localhost:3000](http://localhost:3000)
-
-3. **Stop the Container**
-   ```bash
-   docker-compose down
-   ```
+> **Catatan:** Backend berjalan di port **8000**. Pastikan backend sudah running sebelum menjalankan frontend.
