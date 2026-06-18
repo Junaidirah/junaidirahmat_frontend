@@ -3,7 +3,7 @@
 This is a Next.js (App Router) project built with React, Tailwind CSS v4, and TypeScript. It serves as the frontend for the FTL iMeeting system.
 
 ## Technologies Used
-- **Framework**: Next.js 15 (App Router)
+- **Framework**: Next.js 16 (App Router)
 - **Styling**: Tailwind CSS v4
 - **Forms & Validation**: React Hook Form, Zod
 - **API Requests**: Axios
